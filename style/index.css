@@ -45,9 +45,29 @@ html, body{
 }
 
 .user-pass input{
-    width: 70%;
+    width: 50%;
     padding: 3%;
     margin-top: 3%;
     border: 1px solid #dfdddd;
     border-radius: 8px;
+}
+
+.user-pass .inp-username input {
+    background-image: url(../image/user-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 8%;
+    background-origin: content-box;
+}
+
+.user-pass .inp-password input {
+    background-image: url(../image/password-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 7%;
+    background-origin: content-box;
+}
+
+input::placeholder{
+    color: #000;
 }
