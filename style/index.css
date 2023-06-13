@@ -46,10 +46,13 @@ html, body{
 
 .user-pass input{
     width: 50%;
-    padding: 3%;
+    padding: 3% 2% 3% 9%;
     margin-top: 3%;
     border: 1px solid #dfdddd;
     border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 1px 0px;
+    font-family: 'Inter', sans-serif;
+    color: #404040;
 }
 
 .user-pass .inp-username input {
@@ -57,7 +60,7 @@ html, body{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 8%;
-    background-origin: content-box;
+    background-position-x: 3%;
 }
 
 .user-pass .inp-password input {
@@ -65,9 +68,17 @@ html, body{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 7%;
-    background-origin: content-box;
+    background-position-x: 3%;
 }
 
 input::placeholder{
-    color: #000;
+    color: #c4c4c4;
+}
+
+.btn-login-box{
+    display: flex;
+}
+
+#btn-login{
+    padding: 10%;
 }
