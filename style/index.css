@@ -72,13 +72,25 @@ html, body{
 }
 
 input::placeholder{
-    color: #c4c4c4;
+    color: #999999;
 }
 
 .btn-login-box{
-    display: flex;
+    display: inline;
+    color: #999999;
+    font-size: 14px;
 }
 
-#btn-login{
-    padding: 10%;
+.btn-login-box label{
+    vertical-align: top;
+}
+
+#login{
+    padding: 3% 5%;
+    border: 1px solid #2ebcf3;
+    border-radius: 8px;
+    background-color: #2ebcf3;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 1px 1px 1px;
 }
